@@ -1,5 +1,5 @@
 hr {
-  margin: 2.5em 5em;
+  margin: 2em 5em;
   border: solid 1px #e8e8e8;
 }
 
@@ -26,4 +26,15 @@ form {
 button {
   padding: 0 22px;
   border: 1px solid #e8e8e8;
+}
+
+.form_title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+  margin: 0 4em 0.5em;
 }
