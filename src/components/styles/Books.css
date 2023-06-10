@@ -3,3 +3,40 @@
   margin: 1em 5rem;
   padding: 6px;
 }
+
+img {
+  width: 4.25rem;
+}
+
+.book_item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.book_btns {
+  display: flex;
+  gap: 35px;
+  margin-top: 46px;
+  padding: 7px;
+}
+
+.vl {
+  border-left: 1px solid #000;
+}
+
+.books_updates {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.vline {
+  border-left: 2px solid black;
+  height: 100px;
+}
