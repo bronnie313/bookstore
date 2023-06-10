@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: blue;
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}

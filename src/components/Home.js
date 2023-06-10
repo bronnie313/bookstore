@@ -1,6 +1,9 @@
+import Form from './Form';
+
 const Home = () => (
-  <div>
-    <h1>Home Content</h1>
+  <div className="home">
+    <hr />
+    <Form />
   </div>
 );
 
