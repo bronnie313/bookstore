@@ -1,16 +1,16 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-    bookItems: [],
-    isLoading: true,
-}
+  bookItems: [],
+  isLoading: true,
+};
 
 const booksSlice = createSlice({
-    name: 'book',
-    initialState,
-    reducers:{
-        
-    }
-})
+  name: 'book',
+  initialState,
+  reducers: {
+
+  },
+});
 
 export default booksSlice.reducer;
