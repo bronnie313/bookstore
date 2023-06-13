@@ -30,6 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Wz6NHkNeHYvPD_DxSCvTVI0AjhL4RaX_0g&usqp=CAU" alt="logo" width="140"  height="auto" />
   <br/>
 
+
   # BookStore
 
 </div>
@@ -59,9 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
+
 # 📖 BookStore <a name="about-project"></a>
 
-This Project involves creating a leaderboard which is a list of scores or grades or rankings for a particular game or competition. The application typically allows users to submit their scores or rankings, which are then added to the leaderboard in real-time.
+BookStore is a website for all Books fun. It is a Single Page App (SPA) that allows users add and remove Books and also read them online as well as view their progress.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -168,7 +171,8 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: 
+You can deploy this project using: ` using Render `
+
 
 <!--
 Example:
@@ -193,6 +197,7 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+
 - [ ] **Editing Option**
 - [ ] **Reset Option**
 - [ ] **recycle**
@@ -205,7 +210,8 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [bookstore](../../issues/).
+Feel free to check the [BOOKSTORE](https://github.com/bronnie313/bookstore/issues).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
