@@ -30,7 +30,8 @@ After you're finished please remove all the comments and instructions!
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Wz6NHkNeHYvPD_DxSCvTVI0AjhL4RaX_0g&usqp=CAU" alt="logo" width="140"  height="auto" />
   <br/>
 
-  # Bookstore
+
+  # BookStore
 
 </div>
 
@@ -48,18 +49,22 @@ After you're finished please remove all the comments and instructions!
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BookStore<a name="about-project"></a>
+
+# 📖 BookStore <a name="about-project"></a>
 
 BookStore is a website for all Books fun. It is a Single Page App (SPA) that allows users add and remove Books and also read them online as well as view their progress.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,18 +72,33 @@ BookStore is a website for all Books fun. It is a Single Page App (SPA) that all
 A project was built Using
 
 <details>
-  <summary>REACT</summary>
+  <summary>React</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>React-redux</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>JSX</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+
 
 ### Key Features <a name="key-features"></a>
 
-- **Add new Book form**
-- **Remove book**
-- **Book Progress**
+- **Book Title**
+- **Form Feature**
+- **Remove Book Feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,9 +106,9 @@ A project was built Using
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [See WEB here](https://math-magician-4m5t.onrender.com/)  -->
+- [See WEB here](https://bronnie313.github.io/Leader-Board/dist/)  -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -110,7 +130,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder: ` cd math-magicians  git clone git @https://github.com/bronnie313/bookstore.git `
+Clone this repository to your desired folder: ` cd my-folder  git clone git @https://github.com/bronnie313/bookstore.git`
 
 ### Install
 
@@ -139,7 +159,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:` npm run test `
+To run tests, run the following command:` npm start `
 
 <!--
 Example command:
@@ -152,6 +172,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using: ` using Render `
+
 
 <!--
 Example:
@@ -169,14 +190,14 @@ Example:
 
 - GitHub: [@bronnie313](https://github.com/bronnie313)
 - Twitter: [@bisaso_r](https://twitter.com/bisaso_r)
-- LinkedIn: [Ronald Bisaso](https://www.linkedin.com/in/bisaso-ronald-758017120/)
+- LinkedIn: [Ronald Bisaso](https://linkedin.com/in/BisasoRonald)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **Working Calculator**
+
 - [ ] **Editing Option**
 - [ ] **Reset Option**
 - [ ] **recycle**
@@ -190,6 +211,7 @@ Example:
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [BOOKSTORE](https://github.com/bronnie313/bookstore/issues).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
