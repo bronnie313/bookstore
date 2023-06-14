@@ -1,27 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './styles/Books.css';
-
-const books = [
-  {
-    categories: 'Action',
-    title: 'The Hunger Games',
-    author: 'Suzanne Collins',
-    id: 1,
-  },
-  {
-    categories: 'Science Fiction',
-    title: 'Dune',
-    author: 'Frank Herbert',
-    id: 2,
-  },
-  {
-    categories: 'Economy',
-    title: 'Capital in the Twenty-First Century',
-    author: 'Suzanne Collins',
-    id: 3,
-  },
-];
+import booksSlice from '../redux/books/booksSlice';
 
 const BookList = () => (
   <section className="booklist">
