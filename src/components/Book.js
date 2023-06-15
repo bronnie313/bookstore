@@ -1,38 +1,13 @@
-import React from 'react';
+/* eslint-disable camelcase */
 import PropTypes from 'prop-types';
-import './styles/Books.css';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/booksSlice';
 
-const books = [
-  {
-    categories: 'Action',
-    title: 'The Hunger Games',
-    author: 'Suzanne Collins',
-    id: 1,
-  },
-  {
-    categories: 'Science Fiction',
-    title: 'Dune',
-    author: 'Frank Herbert',
-    id: 2,
-  },
-  {
-    categories: 'Economy',
-    title: 'Capital in the Twenty-First Century',
-    author: 'Suzanne Collins',
-    id: 3,
-  },
-];
+const Book = ({
+  item_id, categories, title, author,
+}) => {
+  const dispatch = useDispatch();
 
-const BookList = () => (
-  <section className="booklist">
-    {books.map((book) => {
-      const { categories, title, author } = book;
-      return <Book categories={categories} title={title} author={author} key={book.id} />;
-    })}
-  </section>
-);
-const Book = (props) => {
-  const { categories, title, author } = props;
   return (
     <article className="book">
       <div className="book_item">
@@ -42,9 +17,9 @@ const Book = (props) => {
           <h6>{author}</h6>
           <div className="book_btns">
             <p>Comment</p>
-            <line className="vl" />
-            <p>Remove</p>
-            <line className="vl" />
+            <div className="vl" />
+            <button type="button" onClick={() => { dispatch(removeBook(item_id)); }}>remove</button>
+            <div className="vl" />
             <p>Edit</p>
           </div>
         </div>
@@ -56,7 +31,7 @@ const Book = (props) => {
               <p>completed</p>
             </div>
           </div>
-          <vline className="vline" />
+          <div className="vline" />
           <div className="updates">
             <p>Current Chapter</p>
             <p>Chapter 12</p>
@@ -69,9 +44,10 @@ const Book = (props) => {
 };
 
 Book.propTypes = {
+  item_id: PropTypes.string.isRequired,
   categories: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
 };
 
-export default BookList;
+export default Book;
