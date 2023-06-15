@@ -6,6 +6,7 @@ hr {
 form {
   margin: 0 5em 5em;
   display: flex;
+  gap: 15px;
   justify-content: space-between;
 }
 
