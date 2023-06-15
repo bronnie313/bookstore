@@ -1,4 +1,4 @@
-import BookList from './Books';
+import BookList from './BookList';
 import Form from './Form';
 
 const Home = () => (
