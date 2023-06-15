@@ -10,7 +10,16 @@ const BookList = () => {
     <section className="booklist">
       <div>
         {
-          bookItems.map((item) => <Book key={item.id} {...item} />)
+          bookItems.map((item) => (
+            <Book
+              key={item.item_id}
+              id={item.id}
+              item_id={item.item_id}
+              title={item.title}
+              author={item.author}
+              categories={item.categories}
+            />
+          ))
         }
       </div>
     </section>
