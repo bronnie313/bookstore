@@ -6,19 +6,19 @@ hr {
 form {
   margin: 0 5em 5em;
   display: flex;
-  gap: 15px;
+  gap: 10px;
   justify-content: space-between;
 }
 
 .book_title {
-  width: 50%;
+  width: 30%;
   padding: 8px;
   outline: none;
   border: 1px solid #e8e8e8;
 }
 
 .category_entry {
-  width: 34%;
+  width: 20%;
   padding: 8px;
   outline: none;
   border: 1px solid #e8e8e8;
@@ -38,4 +38,9 @@ button {
   letter-spacing: -0.18px;
   color: #888;
   margin: 0 4em 0.5em;
+}
+
+.add-btn {
+  color: white;
+  background-color: #0290ff;
 }

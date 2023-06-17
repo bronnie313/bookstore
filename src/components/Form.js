@@ -27,7 +27,7 @@ const Form = () => {
         <input type="text" className="book_title" value={title} placeholder="Book title" onChange={(e) => setTitle(e.target.value)} required />
         <input type="text" className="book_title" value={author} placeholder="Author" onChange={(e) => setAuthor(e.target.value)} required />
         <input type="text" className="category_entry" value={category} placeholder="Categories" onChange={(e) => setCategory(e.target.value)} required />
-        <button type="submit">ADD BOOK</button>
+        <button className="add-btn" type="submit">ADD BOOK</button>
       </form>
     </div>
   );
