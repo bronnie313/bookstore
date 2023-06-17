@@ -15,7 +15,7 @@ const BookList = () => {
 
   if (isLoading) {
     return (
-      <div>
+      <div className="loading">
         <h2>Loading ...</h2>
       </div>
     );

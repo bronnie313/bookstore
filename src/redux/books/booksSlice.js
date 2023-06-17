@@ -39,10 +39,10 @@ export const addNewBook = createAsyncThunk('book/addNewBook', async (info) => {
   }
 });
 
-export const deleteBook = createAsyncThunk('book/deleteBook', async (bookId) => {
-  try {
-    const res = await axios.delete(`${url}/${bookId}`);
-    return res.data;
+export const deleteBook = createAsyncThunk('book/deleteBook', async (id) => {
+ try {
+    await axios.delete(`${url}/${id}`);
+    return id;
   } catch (error) {
     return error.message;
   }
@@ -58,7 +58,7 @@ const booksSlice = createSlice({
     // },
     removeBook: (state, action) => {
       const bookId = action.payload;
-      state.bookItems = state.bookItems.filter((item) => item.item_id !== bookId);
+      state.books = state.books.filter((book) => book.item_id !== bookId);
     },
   },
   extraReducers: (builder) => {
@@ -69,7 +69,6 @@ const booksSlice = createSlice({
       .addCase(getBookItems.fulfilled, (state, action) => {
         state.isLoading = false;
         state.bookItems = action.payload;
-        console.log(action.payload);
       })
       .addCase(getBookItems.rejected, (state, action) => {
         state.isLoading = false;
@@ -82,8 +81,9 @@ const booksSlice = createSlice({
         state.error = action.error.message;
       })
       .addCase(deleteBook.fulfilled, (state, action) => {
-        const bookId = action.payload;
-        state.bookItems = state.bookItems.filter((item) => item.item_id !== bookId);
+        const id = action.payload;
+        console.log(action.payload);
+        state.bookItems = state.bookItems.filter((item) => item.item_id !== id);
       })
       .addCase(deleteBook.rejected, (state, action) => {
         state.error = action.error.message;

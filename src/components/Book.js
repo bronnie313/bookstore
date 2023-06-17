@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/booksSlice';
+import { deleteBook } from '../redux/books/booksSlice';
 
 const Book = ({
   item_id, category, title, author,
@@ -18,7 +18,7 @@ const Book = ({
           <div className="book_btns">
             <p>Comment</p>
             <div className="vl" />
-            <button type="button" onClick={() => { dispatch(removeBook(item_id)); }}>remove</button>
+            <button type="button" onClick={() => { dispatch(deleteBook(item_id)); }}>remove</button>
             <div className="vl" />
             <p>Edit</p>
           </div>
@@ -27,7 +27,7 @@ const Book = ({
           <div className="progress">
             <img src="./progress.png" alt="progress" />
             <div className="completed">
-              <p className="percent">8%</p>
+              <p className="percent">64%</p>
               <p>completed</p>
             </div>
           </div>
