@@ -25,7 +25,7 @@ img {
 }
 
 .vl {
-  border-left: 1px solid #4386bf;
+  border-left: 1px solid  #e8e8e8;
 }
 
 .books_updates {
@@ -41,8 +41,8 @@ img {
 }
 
 .vline {
-  border-left: 2px solid #4386bf;
-  height: 100px;
+  border-left: 1px solid #e8e8e8;
+  height: 83px;
 }
 
 .loading {
