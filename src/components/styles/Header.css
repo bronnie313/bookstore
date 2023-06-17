@@ -27,3 +27,13 @@ ul {
   font-weight: normal;
   color: #787878;
 }
+
+.profile {
+  width: 3rem;
+}
+
+.logo-navigation {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
