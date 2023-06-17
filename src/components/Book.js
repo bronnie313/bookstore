@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/booksSlice';
 
 const Book = ({
-  item_id, categories, title, author,
+  item_id, category, title, author,
 }) => {
   const dispatch = useDispatch();
 
@@ -12,7 +12,7 @@ const Book = ({
     <article className="book">
       <div className="book_item">
         <div>
-          <h3>{categories}</h3>
+          <h3>{category}</h3>
           <h2>{title}</h2>
           <h6>{author}</h6>
           <div className="book_btns">
@@ -45,7 +45,7 @@ const Book = ({
 
 Book.propTypes = {
   item_id: PropTypes.string.isRequired,
-  categories: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
 };
