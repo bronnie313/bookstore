@@ -1,7 +1,8 @@
 .book {
-  border: 1px solid gray;
+  border: 1px solid #e8e8e8;
   margin: 1em 5rem;
-  padding: 6px;
+  padding: 15px;
+  background-color: white;
 }
 
 img {
@@ -15,13 +16,14 @@ img {
 
 .book_btns {
   display: flex;
-  gap: 35px;
-  margin-top: 46px;
-  padding: 7px;
+  gap: 20px;
+  margin-top: 16px;
+  color: #4386bf;
+  font-size: 0.875rem;
 }
 
 .vl {
-  border-left: 1px solid #000;
+  border-left: 1px solid #4386bf;
 }
 
 .books_updates {
@@ -37,11 +39,66 @@ img {
 }
 
 .vline {
-  border-left: 2px solid black;
+  border-left: 2px solid #4386bf;
   height: 100px;
 }
 
 .loading {
   display: flex;
   justify-content: center;
+}
+
+.title {
+  height: 1.813rem;
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.categories {
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.author {
+  width: 6.688rem;
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.remove-btn {
+  border: none;
+  background: none;
+  color: #4386bf;
+  padding: 0;
+}
+
+.update-progress {
+  margin-top: 20px;
+  padding: 6px;
+  width: 113%;
+  font-size: x-small;
+  color: white;
+  background: #0290ff;
 }

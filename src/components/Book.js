@@ -12,13 +12,13 @@ const Book = ({
     <article className="book">
       <div className="book_item">
         <div>
-          <h3>{category}</h3>
-          <h2>{title}</h2>
-          <h6>{author}</h6>
+          <h3 className="categories">{category}</h3>
+          <h2 className="title">{title}</h2>
+          <h6 className="author">{author}</h6>
           <div className="book_btns">
             <p>Comment</p>
             <div className="vl" />
-            <button type="button" onClick={() => { dispatch(deleteBook(item_id)); }}>remove</button>
+            <button className="remove-btn" type="button" onClick={() => { dispatch(deleteBook(item_id)); }}>remove</button>
             <div className="vl" />
             <p>Edit</p>
           </div>
@@ -35,7 +35,7 @@ const Book = ({
           <div className="updates">
             <p>Current Chapter</p>
             <p>Chapter 12</p>
-            <button type="button"> UPDATE PROGRESS</button>
+            <button className="update-progress" type="button"> UPDATE PROGRESS</button>
           </div>
         </div>
       </div>

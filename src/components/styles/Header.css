@@ -4,12 +4,13 @@ nav {
   padding: 1.5rem 5rem;
   border-bottom: 1px solid lightgray;
   align-items: center;
+  background-color: white;
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.87rem;
   font-weight: 700;
-  color: blue;
+  color: #0290ff;
 }
 
 ul {
@@ -20,7 +21,9 @@ ul {
 }
 
 .link {
+  font-family: monospace, 'sans-serif';
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1em;
+  font-weight: normal;
+  color: #787878;
 }
