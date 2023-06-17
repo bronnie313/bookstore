@@ -40,3 +40,8 @@ img {
   border-left: 2px solid black;
   height: 100px;
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+}

@@ -1,5 +1,7 @@
+import './styles/Categories.css';
+
 const Categories = () => (
-  <div>
+  <div className="category">
     <h1>Categories</h1>
     <button type="submit">Status</button>
   </div>
