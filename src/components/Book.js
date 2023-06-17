@@ -28,13 +28,13 @@ const Book = ({
             <img src="./progress.png" alt="progress" />
             <div className="completed">
               <p className="percent">64%</p>
-              <p>completed</p>
+              <p className="complete">completed</p>
             </div>
           </div>
           <div className="vline" />
           <div className="updates">
-            <p>Current Chapter</p>
-            <p>Chapter 12</p>
+            <p className="current-chapter">Current Chapter</p>
+            <p className="chapter">Chapter 12</p>
             <button className="update-progress" type="button"> UPDATE PROGRESS</button>
           </div>
         </div>
